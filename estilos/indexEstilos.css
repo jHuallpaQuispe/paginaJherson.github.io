@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+
+#video{
+    position: relative;
+}
+#video video{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h1{
+    background: #000;
+    font-size: 220px;
+    text-align: center;
+    font-weight: 400;
+    mix-blend-mode: multiply;
+}
+header{
+	padding-top: 2%;
+	padding-right: 7%;
+	padding-bottom: 2%;
+	padding-left: 50%;
+
+	display: flex;
+	justify-content: space-between;
+}
+nav ul{
+	margin-top: 3%;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	font-size: 1.2rem;
+	padding-right: 2rem;
+	text-transform: uppercase;
+}
+nav ul li a:hover{
+	/*text-decoration: underline;*/
+    color:aqua;
+	font-weight: 800;
+}
+a{
+	text-decoration: none; /*Quita las subrayas */
+	color: #ffffff;
+}
