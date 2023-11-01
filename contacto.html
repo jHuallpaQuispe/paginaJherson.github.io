@@ -7,24 +7,37 @@
         <meta name="viewport" content="width = device-width">
         <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="estilos/indexEstilos.css">
+        <link rel="stylesheet" href="estilos/contacto.css">
         <link rel = "icon" type= "images" href="images/logo.jpg">
         <title>Dr. Stone</title>
 
     </head>
     <body>
         <header>
-            <a href="index.html" >
-                <img id="logo" src="images/logo.jpg" alt="logo Dr Stone">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="logo Dr Stone">
             </a>
-            <nav id="menu_bar" class="">
+            <nav class="menu">
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="inicio.html">Inicio</a></li>
                     <li><a href="personajes.html">Personajes</a></li>
                     <li><a href="galeria.html">Galería</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </nav>
         </header>
+        <video autoplay muted preload loop 
+        src="video/background.mp4"></video>
+        <div class="capa"></div>
+        <h1> <img src="images/letras/letra-personajes.png" alt="personajes"> </h1>
+
+        <section class="form-contacto">
+            <h1>Formulario Contacto</h1>
+            <input class="controls "type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+            <input class="controls "type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+            <input class="controls "type="email" name="correo" id="correo" placeholder="Ingrese su correo">
+            <input class="controls "type="tel" name="telefono" id="telefono" placeholder="Ingrese su Teléfono">
+            <input class="botons" type="submit" value="Registrar">
+        </section>
     </body>
 </html>
