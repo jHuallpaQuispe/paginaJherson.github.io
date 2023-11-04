@@ -101,6 +101,7 @@ header label{
 h1 {
     text-align: center;
 }
+
 .personajes-img{
     display:grid;
     align-items: center;
@@ -247,6 +248,4 @@ footer img{
     .personajes-img section .card p{
         color: #fff;
     }
-
-    .personajes-img section .card img
 }
