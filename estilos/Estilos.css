@@ -219,11 +219,10 @@ article .btn:hover{
 
 .about .staff{
     text-align:justify;
-    flex-wrap: wrap;
 }
 .about .staff li{
-    height: 4vh;
-    font-size: 25px;
+    height: 5vh;
+    font-size: 24px;
 }
 .price{
     background: url(post.jpg) no-repeat center;
