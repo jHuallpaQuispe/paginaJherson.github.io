@@ -336,6 +336,9 @@ article .btn:hover{
     text-align: left;
     color: #E5E5E5;
 }
+.container2 .card2 p strong{
+    color: #FCA311;
+}
 .container2 .card2 a{
     font-weight: 500;
     text-decoration: none;
