@@ -129,12 +129,15 @@ article{
 }
 
 article .inicio{
-    height:80vh !important;
+    height:90vh !important;
     background: url(poster.png) no-repeat center;
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    object-fit: cover;
+    min-width: 320px;
 }
 
 article .inicio .p-inicio{
@@ -168,7 +171,7 @@ article .btn:hover{
     background: none;
 }
 .content{
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -218,6 +221,7 @@ article .btn:hover{
 }
 .about .staff li{
     height: 4vh;
+    font-size: 25px;
 }
 .price{
     background: url(post.png) no-repeat center;
@@ -250,7 +254,7 @@ article .btn:hover{
     margin-bottom: 100px;
 }
 
-.personajes-img section .card > img{
+.personajes-img section .card a> img{
     max-width: 280px;
     width: 25vw;
     height: 300px;
@@ -261,7 +265,7 @@ article .btn:hover{
     border-radius: 20px;
     transition: .3s;
 }
-.personajes-img section .card > img:hover{
+.personajes-img section .card a> img:hover{
     transform: scale(1.1);
 }
 .personajes-img section .card div{
@@ -285,6 +289,32 @@ article .btn:hover{
     color: #fff;
     
 }
+
+/*Galeria*/
+.container{
+    padding: 15px 10%;
+}
+.container .gallery {
+    display: grid;
+    grid-template-columns:
+    repeat(
+        auto-fit,
+        minmax(400px, 1fr)
+        );
+    gap:80px;
+    padding: 100px 0;
+}
+.container .gallery img{
+    border-radius: 8px;
+    width: 100%;    
+    height: 550px;
+    box-shadow:0px 0px 30px #FCA311;
+    transition: .3s;
+}
+.container .gallery img:hover{
+    transform: scale(0.9);
+}
+
 /*contacto*/
 .contacto {
     text-align: center;
@@ -397,10 +427,10 @@ footer img{
     /*inicio*/
     .tittle{
         margin-bottom: 0;
-        font-size: 40px;
+        font-size: 50px;
     }
     .sau{
-        height: 160vh;
+        height: 170vh;
     }
     /*PERSONAJES*/
     .personajes-img section .card{
@@ -431,5 +461,9 @@ footer img{
     }
     .personajes-img section .card p{
         color: #fff;
+    }
+    .container .gallery img{
+        width: 100%;    
+        height: auto;
     }
 }
