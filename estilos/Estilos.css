@@ -131,7 +131,7 @@ article{
 }
 
 article .inicio{
-    height:90vh !important;
+    height:100vh !important;
     background: url(poster.jpg) no-repeat center;
     background-size: cover;
     background-position: center;
@@ -442,12 +442,16 @@ footer img{
         display: block;
     }
     /*inicio*/
+    article .inicio .p-inicio{
+        margin-top: 8cm;
+        font-weight: 600;
+    }
     .tittle{
         margin-bottom: 0;
         font-size: 50px;
     }
     .sau{
-        height: 170vh;
+        height: 190vh;
     }
     /*PERSONAJES*/
     .personajes-img section .card{
