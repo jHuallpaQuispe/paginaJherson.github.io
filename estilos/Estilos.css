@@ -292,6 +292,56 @@ article .btn:hover{
 
 }
 
+/*Lugares*/
+
+.container2{
+    height: 100%;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.container2 .card2{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px rgba(0,0,0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.container2 .card2:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+.container2 .card2 img{
+    width: 100%;
+    height: auto;
+}
+.container2 .card2 h2{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+.container2 .card2 p{
+    padding: 0 1rem;
+    font-size:  24px;
+    font-weight: 300;
+    text-align: left;
+    color: #E5E5E5;
+}
+.container2 .card2 a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #FCA311;
+}
+
 /*Galeria*/
 .container{
     padding: 15px 10%;
@@ -483,6 +533,7 @@ footer img{
     }
     .personajes-img section .card p{
         color: #fff;
+        display:contents;
     }
     .container .gallery img{
         width: 100%;    
