@@ -285,10 +285,11 @@ article .btn:hover{
     font-weight: 900;
 }
 .personajes-img section .card div > p{
+    text-align:start;
     font-size:24px;
     margin-bottom: 24px;
     color: #fff;
-    
+
 }
 
 /*Galeria*/
@@ -309,7 +310,7 @@ article .btn:hover{
     border-radius: 8px;
     width: 100%;    
     height: auto;
-    box-shadow:0px 0px 30px #FCA311;
+    box-shadow:0px 0px 30px #22211f;
     transition: .3s;
 }
 .container .gallery img:hover{
