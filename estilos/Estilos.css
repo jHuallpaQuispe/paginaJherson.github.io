@@ -44,7 +44,14 @@ header{
     justify-content: space-between;
     z-index: 1000;
 }
-
+.titulo-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-fantasma{
+    display: none;
+}
 .logo{
     text-transform: uppercase;
     font-weight: 700;
@@ -153,10 +160,12 @@ article .inicio .p-inicio{
     text-transform: uppercase;
 }
 article p{
-    margin-bottom: 40px;
-    font-size: 18px;
-    color: #fff;
-    padding: 0 100px;
+    padding: 0 1rem;
+    font-size:  24px;
+    font-weight: 300;
+    text-align: left;
+    color: #E5E5E5;
+
 }
 article .btn{
     display: inline-block;
@@ -211,6 +220,7 @@ article .btn:hover{
 .box-container .box p{
     padding: 0 15px;
     font-size: 40px;
+    text-align: center;
 }
 
 .about{
@@ -231,9 +241,6 @@ article .btn:hover{
 }
 
 /*Personajes*/
-.personajes {
-    text-align: center;
-}
 
 .personajes-img{
     display:grid;
@@ -291,6 +298,9 @@ article .btn:hover{
     color: #fff;
 
 }
+.personajes-img section .card strong{
+    color: #40916C;
+}
 
 /*Lugares*/
 
@@ -336,7 +346,7 @@ article .btn:hover{
     text-align: left;
     color: #E5E5E5;
 }
-.container2 .card2 p strong{
+strong{
     color: #FCA311;
 }
 .container2 .card2 a{
@@ -387,11 +397,7 @@ article .btn:hover{
     left: 0;
     background: rgba(0, 0, 0, 0.4);
 }
-.contacto {
-    text-align: center;
-    position: relative;
-    z-index: 2;
-}
+
 
 .form-contacto{
     width: 400px;
@@ -505,7 +511,7 @@ footer img{
         font-size: 50px;
     }
     .sau{
-        height: 190vh;
+        height: 170vh;
     }
     /*PERSONAJES*/
     .personajes-img section .card{
@@ -536,7 +542,7 @@ footer img{
     }
     .personajes-img section .card p{
         color: #fff;
-        display:contents;
+        text-align: left;
     }
     .container .gallery img{
         width: 100%;    
